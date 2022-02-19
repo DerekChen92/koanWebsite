@@ -1,0 +1,23 @@
+.koan_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+.koan_table tr:nth-child(even) {background-color: #f2f2f2;}
+
+.header_row {
+  background-color: #edd8e7;
+}
+
+th, .header_row {
+  color: #920683
+}
+
+td {
+  color: #52aa35;
+}

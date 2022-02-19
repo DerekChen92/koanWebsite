@@ -1,0 +1,43 @@
+
+
+.grey_line {
+  background-color: grey;
+  height: 30vh;
+  width: 1px;
+}
+
+img{
+  max-height: 30vh;
+  width: auto;
+}
+
+.flur_anim:hover {
+  transform: scale(1.2);
+  transition: all .2s ease-in-out;
+}
+
+.margin_row {
+  min-height: 15.5vh;
+}
+
+.flex_box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.center_box {
+  margin: auto;
+  width: 98vw;
+  padding: 10px;
+  height: 60vh
+}
+
+.footer {
+  height: 5vh;
+  width: 100%;
+}
+
+.footer p {
+  padding-left: 180px
+}
