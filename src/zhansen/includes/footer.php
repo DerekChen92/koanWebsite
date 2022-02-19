@@ -49,7 +49,7 @@
             <div class='row'>
             <div class='span6'>
                 <p>
-                &copy; 2021 - All Rights Reserved - koan88.com
+                &copy; 2022 - All Rights Reserved - zhansen.com.tw
                 </p>
             </div>
             <div class='span6'>

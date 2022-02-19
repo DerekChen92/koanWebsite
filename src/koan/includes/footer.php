@@ -41,7 +41,7 @@
         <div class='wrapper row5'>
             <div id='copyright' class='hoc clear'> 
                 <!-- ################################################################################################ -->
-                <p class='fl_left'>Copyright &copy; 2021 - All Rights Reserved - <a href='#'>koan88.com</a></p>
+                <p class='fl_left'>Copyright &copy; 2022 - All Rights Reserved - <a href='#'zhansen.com.tw</a></p>
                 <p class='fl_right'> <a target='_blank' href='http://www.os-templates.com/' title='Free Website Templates'></a></p>
                 <!-- ################################################################################################ -->
             </div>
