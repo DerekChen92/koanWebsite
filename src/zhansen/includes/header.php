@@ -1,5 +1,18 @@
 <?php
+class TabData {
+  public $url;
+  public $name;
+  function __construct($name, $url) {
+    $this->name = $name;
+    $this->url = $url;
+  }
+}
+
 function getHeader($main_page, $add_path){
+    $tabs = array(
+      new TabData("home", "")
+    );
+
     $home_state = "";
     $services_state = "";
     $products_state = "";
@@ -81,9 +94,6 @@ function getHeader($main_page, $add_path){
                 </li>
                 <li class=$contact_us_state>
                   <a href=$contact_us_url><i class='icon-envelope-alt'></i> 聯絡我們 </a>
-                </li>
-                <li class=$test_state>
-                  <a href=$test_url><i class='icon-home'></i> 聯絡我們 </a>
                 </li>
               </ul>
             </nav>
