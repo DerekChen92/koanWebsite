@@ -5,12 +5,14 @@ function getHeader($main_page, $add_path){
     $products_state = "";
     $jobs_state = "";
     $contact_us_state = "";
+    $test_state = "";
 
     $home_url = "$add_path/";
     $services_url = "$add_path/services";
     $products_url = "$add_path/products";
     $jobs_url = "$add_path/jobs";
     $contact_us_url = "$add_path/contact_us";
+    $test_url = "$add_path/test";
 
     switch ($main_page) {
         case "home":
@@ -37,6 +39,10 @@ function getHeader($main_page, $add_path){
             $contact_us_state = "active";
             $contact_us_url = "#";
             break;
+
+        case "test":
+            $test_state = "active";
+            $test_url = "#";
         
         default:
             # code...
@@ -75,6 +81,9 @@ function getHeader($main_page, $add_path){
                 </li>
                 <li class=$contact_us_state>
                   <a href=$contact_us_url><i class='icon-envelope-alt'></i> 聯絡我們 </a>
+                </li>
+                <li class=$test_state>
+                  <a href=$test_url><i class='icon-home'></i> 聯絡我們 </a>
                 </li>
               </ul>
             </nav>
