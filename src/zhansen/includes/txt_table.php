@@ -42,7 +42,7 @@ function buildTable($url) {
     getTableCss();
 
     $file = file($url);
-
+    echo "<div style='padding: 8px 0 8px 0;'>";
     echo "<table class='koan_table'>";
     foreach ($file as $num=>$line) {
         if (strpos($line, "title:") !== false) {
@@ -54,5 +54,6 @@ function buildTable($url) {
         }
     }
     echo "</table>";
+    echo "</div>";
 }
 ?>
