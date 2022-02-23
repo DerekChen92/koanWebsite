@@ -21,10 +21,9 @@
     <section id="maincontent">
       <div class="container">
         <?php
-          $total_img = count(glob("./images/*.png"));
-          for($i = 1; $i <= $total_img; $i++) {
-            echo "
-            <img src='./jobs/images/$i.png' alt='' style='margin: 20px 0px'/>";
+          $total_tables = count(glob("./tables/*.txt"));
+          for($i = 0; $i < $total_tables; $i++) {
+            buildTable("./tables/$i.txt");
           }
         ?>
 
