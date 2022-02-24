@@ -7,9 +7,6 @@ function getTableCss()
             border-collapse: collapse;
             width: 100%;
             padding: 8px;
-            border: 1px solid grey;
-            border-radius: 10px;
-            margin: 15px 8px 15px 8px;
         }
         th,
         td {
@@ -40,7 +37,7 @@ function getTableCss()
             font-weight: 700;
         }
         tr th {
-            height: 60px;
+            height: 70px;
         }
         tr {
             height: 40px;
