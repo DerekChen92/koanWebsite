@@ -1,16 +1,31 @@
 <?php
+class TabData {
+  public $url;
+  public $name;
+  function __construct($name, $url) {
+    $this->name = $name;
+    $this->url = $url;
+  }
+}
+
 function getHeader($main_page, $add_path){
+    $tabs = array(
+      new TabData("home", "")
+    );
+
     $home_state = "";
     $services_state = "";
     $products_state = "";
     $jobs_state = "";
     $contact_us_state = "";
+    $test_state = "";
 
     $home_url = "$add_path/";
     $services_url = "$add_path/services";
     $products_url = "$add_path/products";
     $jobs_url = "$add_path/jobs";
     $contact_us_url = "$add_path/contact_us";
+    $test_url = "$add_path/test";
 
     switch ($main_page) {
         case "home":
@@ -37,6 +52,10 @@ function getHeader($main_page, $add_path){
             $contact_us_state = "active";
             $contact_us_url = "#";
             break;
+
+        case "test":
+            $test_state = "active";
+            $test_url = "#";
         
         default:
             # code...

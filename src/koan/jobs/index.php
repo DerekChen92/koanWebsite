@@ -27,6 +27,12 @@ Licence URI: http://www.os-templates.com/template-terms
         <!-- ################################################################################################ -->
         <div class="content"> 
             <?php
+                $total_tables = count(glob("./tables/*.txt"));
+                for($i = 0; $i < $total_tables; $i++) {
+                    buildTable("./tables/$i.txt");
+                }
+            ?>
+            <?php
                 $total_img = count(glob("./*.png"));
                 for($i=1; $i<=$total_img; $i++) {
                     echo "<img src='./jobs/$i.png'/>";
