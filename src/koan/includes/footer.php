@@ -15,7 +15,7 @@
             <ul class='faico clear'>
                 <li><a class='faicon-facebook' href='https://www.facebook.com/ZhanSenCoLtd/' target='_blank'><i class='fa fa-facebook'></i></a></li>
                 <li><a class='faicon-google-plus' href='https://www.instagram.com/zhansencoltd/'><i class='fa fa-instagram'></i></a>
-                <li><a class='faicon-line' href='https://lin.ee/EhGgn9T' style='margin-left:3px;'><i><img src='./assets/images/line_icon.png' style='width:27px; height:27px;'></i></a>
+                <li><a class='faicon-line' href='https://lin.ee/EhGgn9T' style='margin-left:3px;'><i><img src='/koan/assets/images/line_icon.png' style='width:27px; height:27px;'></i></a>
                 </li>   
             </ul>
             </div>

@@ -1,6 +1,7 @@
 <?php
     function getHead($main_page, $add_path) {
         $page_name = getPageName($main_page);
+        $add_path = "/koan";
         echo "
         <title>格安企業有限公司 | $page_name
         </title>

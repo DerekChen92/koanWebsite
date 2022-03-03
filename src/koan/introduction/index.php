@@ -30,7 +30,7 @@ Licence URI: http://www.os-templates.com/template-terms
       <?php
         echo "
         <div class='one_third first'>
-            <img src='./introduction/background.jpg'>
+            <img src='/koan/introduction/background.jpg'>
         </div>";
 
         echo "

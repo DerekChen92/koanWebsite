@@ -29,7 +29,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <?php
             $total_img = count(glob("./*.png"));
             for($i=1; $i<=$total_img; $i++) {
-                echo "<img src='./training/$i.png'/>";
+                echo "<img src='/koan/training/$i.png'/>";
             }
         ?>
     </div>

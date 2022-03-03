@@ -1,6 +1,7 @@
 <?php
 function getHead($main_page, $add_path) {
     $title = getPageName($main_page);
+    $add_path = "/zhansen";
     echo 
     "
     <meta charset='utf-8'>

@@ -32,12 +32,6 @@ Licence URI: http://www.os-templates.com/template-terms
                     buildTable("./tables/$i.txt");
                 }
             ?>
-            <?php
-                $total_img = count(glob("./*.png"));
-                for($i=1; $i<=$total_img; $i++) {
-                    echo "<img src='./jobs/$i.png'/>";
-                }
-            ?>
         </div>
     </main>
     </div>

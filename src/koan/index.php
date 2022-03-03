@@ -20,7 +20,7 @@ Licence URI: http://www.os-templates.com/template-terms
         getHeadInfo();
         getHeader($main_page);
     ?>
-<div class='bgded overlay' style='background-image:url("./slides/background.jpg");'>
+<div class='bgded overlay' style='background-image:url("/koan/slides/background.jpg");'>
   <div id='pageintro' class='hoc clear'> 
     <div class='flexslider basicslider'>
       <ul class='slides'>

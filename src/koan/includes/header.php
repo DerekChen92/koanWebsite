@@ -11,7 +11,7 @@
                 </div>
                 <div class='fl_right'>
                 <ul>
-                    <li><a href='../'><i class='fa fa-lg fa-home'></i></a></li>
+                    <li><a href='/'><i class='fa fa-lg fa-home'></i></a></li>
                 </ul>
                 </div>
             </div>
@@ -25,12 +25,12 @@
         $active_benefits = "";
         $active_jobs = "";
         $active_contact_us = "";
-        $home_url = "./home";
-        $training_url = "./training";
-        $introduction_url = "./introduction";
-        $benefits_url = "./benefits";
-        $jobs_url = "./jobs";
-        $contact_us_url = "./contact_us";
+        $home_url = "/koan";
+        $training_url = "/koan/training";
+        $introduction_url = "/koan/introduction";
+        $benefits_url = "/koan/benefits";
+        $jobs_url = "/koan/jobs";
+        $contact_us_url = "/koan/contact_us";
         switch ($main_page) {
             case "home":
                 $active_home = "active";
@@ -63,7 +63,7 @@
         <div class='wrapper row1'>
             <header id='header' class='hoc clear'>
                 <div id='logo'> 
-                    <h1><a href='./'><img src='./assets/images/company_logo.png' alt='company_logo' style='width:52px;height:52px;margin-right:10px;vertical-align: text-top;'>格安企業有限公司</a></h1>
+                    <h1><a href='/koan/'><img src='/koan/assets/images/company_logo.png' alt='company_logo' style='width:52px;height:52px;margin-right:10px;vertical-align: text-top;'>格安企業有限公司</a></h1>
                     <h7>KOAN INDUSTRIAL CO., LTD.</h7>
 
                 </div>

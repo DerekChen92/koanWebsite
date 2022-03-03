@@ -27,7 +27,7 @@ Licence URI: http://www.os-templates.com/template-terms
         for($i=1; $i<=$total_img; $i++) {
             echo "
             <div class='content'>
-                <img src='./benefits/$i.png'>
+                <img src='/koan/benefits/$i.png'>
             </div>";
         }
     ?>
