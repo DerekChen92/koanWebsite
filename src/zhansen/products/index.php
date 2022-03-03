@@ -36,12 +36,12 @@
                     <div class='span4'>
                       <div class='thumbnail'>
                         <div class='image-wrapp'>
-                          <img src='./products_details/$name/cover.jpg' alt='1' title='' />
+                          <img src='/zhansen/products_details/$name/cover.jpg' alt='1' title='' />
                           <article class='da-animate da-slideFromRight'>
-                            <a class='zoom' data-pretty='prettyPhoto' href='./products_details/$name/1.jpg'>
+                            <a class='zoom' data-pretty='prettyPhoto' href='/zhansen/products_details/$name/1.jpg'>
                               <i class='icon-zoom-in icon-rounded icon-48 active'></i>
                             </a>
-                            <a href='./products_details?product_name=$name'>
+                            <a href='/zhansen/products_details?product_name=$name'>
                               <i class='icon-link icon-rounded icon-48 active'></i>
                             </a>
                             <div class='hidden-tablet'>

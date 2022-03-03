@@ -41,7 +41,7 @@
                                 for($i=1; $i < $total_img; $i++) {
                                     echo "
                                     <li>
-                                        <img src='./products_details/$product_name/$i.jpg' alt=''/>
+                                        <img src='/zhansen/products_details/$product_name/$i.jpg' alt=''/>
                                     </li>";
                                 }
                         echo "

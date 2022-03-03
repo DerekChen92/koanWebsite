@@ -8,13 +8,13 @@
             <div class='widget'>
                 <h5>相關連結</h5>
                 <ul class='regular'>
-                <li><a href='../'>                  
+                <li><a href='/'>                  
                     <li><i class='icon-home'></i></li>
                     </a></li>
-                <li><a href='./services'>服務項目</a></li>
-                <li><a href='./products'>作品展示</a></li>
-                <li><a href='./jobs'>工作機會</a></li>
-                <li><a href='./contact_us'>聯絡我們</a></li>
+                <li><a href='/zhansen/services'>服務項目</a></li>
+                <li><a href='/zhansen/products'>作品展示</a></li>
+                <li><a href='/zhansen/jobs'>工作機會</a></li>
+                <li><a href='/zhansen/contact_us'>聯絡我們</a></li>
                 </ul>
             </div>
             </div>
