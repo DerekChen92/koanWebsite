@@ -38,7 +38,7 @@
                   </li>
                   <li><label><strong>Email : </strong></label>
                     <p>
-                      KOANVIVI@GMAIL.COM
+                      op@zhansen.com.tw
                     </p>
                   </li>
                   <li><label><strong>地址 : </strong></label>
