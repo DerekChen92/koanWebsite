@@ -28,7 +28,7 @@
                 </address>
                 </li>
                 <li><i class='fa fa-phone'></i> (03)350-3085</li>
-                <li><i class='fa fa-envelope-o'></i> KOANVIVI@GMAIL.COM</li>
+                <li><i class='fa fa-envelope-o'></i> op@zhansen.com.tw</li>
             </ul>
             </div>
             <!-- ################################################################################################ -->
@@ -41,7 +41,7 @@
         <div class='wrapper row5'>
             <div id='copyright' class='hoc clear'> 
                 <!-- ################################################################################################ -->
-                <p class='fl_left'>Copyright &copy; 2022 - All Rights Reserved - <a href='#'zhansen.com.tw</a></p>
+                <p class='fl_left'>Copyright &copy; 2022 - All Rights Reserved - zhansen.com.tw<a href='#'zhansen.com.tw</a></p>
                 <p class='fl_right'> <a target='_blank' href='http://www.os-templates.com/' title='Free Website Templates'></a></p>
                 <!-- ################################################################################################ -->
             </div>

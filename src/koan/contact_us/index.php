@@ -41,7 +41,7 @@ Licence URI: http://www.os-templates.com/template-terms
           <tr><td>地址: 桃園市桃園區中正路366號7樓之3<br><span style="margin-left:40px">(21世紀大廈)</span></td></tr>
           <tr><td>電話: (03) 350-3085</td></tr>
           <tr><td>傳真: (03) 350-3087</td></tr>
-          <tr><td>EMAIL: KOANVIVI@GMAIL.COM</td></tr>
+          <tr><td>EMAIL: op@zhansen.com.tw</td></tr>
           <tr><td>統一編號: 28801517</td> </tr>
           <tr><td><br></td></tr>
           <tr><td><b>服務時間</b></td></tr>

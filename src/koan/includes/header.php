@@ -6,7 +6,7 @@
                 <div class='fl_left'>
                 <ul>
                     <li><i class='fa fa-phone'></i> (03)350-3085</li>
-                    <li><i class='fa fa-envelope-o'></i> koanvivi@gmail.com</li>
+                    <li><i class='fa fa-envelope-o'></i> op@zhansen.com.tw</li>
                 </ul>
                 </div>
                 <div class='fl_right'>

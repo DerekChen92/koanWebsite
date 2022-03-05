@@ -38,7 +38,7 @@
                                 </address>
                 <p>
                 <i class='icon-phone'></i> (03) 350-3086<br>
-                <i class='icon-envelope-alt'></i> KOANVIVI@GMAIL.COM
+                <i class='icon-envelope-alt'></i> op@zhansen.com.tw
                 </p>
             </div>
             </div>
