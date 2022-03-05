@@ -45,6 +45,10 @@ function getHeader($main_page, $add_path){
             $products_url = "#";
             break;
 
+        case "products_details":
+            $products_state = "active";
+            break;
+
         case "jobs":
             $jobs_state = "active";
             $jobs_url = "#";

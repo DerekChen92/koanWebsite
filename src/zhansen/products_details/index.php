@@ -3,7 +3,7 @@
 
 <head>
     <?php
-        $main_page = "products";
+        $main_page = "products_details";
         foreach (glob("../includes/*.php") as $filename)
             include_once $filename;
         getHead($main_page, '.');
