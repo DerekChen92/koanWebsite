@@ -8,6 +8,7 @@
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
         <meta name='author' content='Derek Chen'>
         <link href='./assets/css/style.css' rel='stylesheet' type='text/css' media='all'>
+        <link rel='shortcut icon' href='/zhansen/assets/ico/zhansen-favicon.ico'>
     </head>
     <body>
     <?php
