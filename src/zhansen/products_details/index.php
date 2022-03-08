@@ -3,7 +3,7 @@
 
 <head>
     <?php
-        $main_page = "products_details";
+        $main_page = $_GET["product_name"];
         foreach (glob("../includes/*.php") as $filename)
             include_once $filename;
         getHead($main_page, '.');
@@ -14,7 +14,7 @@
   <div id="wrapper">
     <?php 
         getHeader($main_page, '.');        
-        getSubintro($main_page);
+        getSubintro("products", $main_page);
     ?>
     
     <!-- Contents -->

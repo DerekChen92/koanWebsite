@@ -10,6 +10,7 @@
                 break;
     
             case "products":
+            case "products_details":
                 return "作品展示";
                 break;
     
@@ -20,10 +21,11 @@
             case "contact_us":
                 return "聯絡我們";
                 break;
+
     
             default:
                 # code...
-                return "Error";
+                return $main_page;
                 break;
         }
     }
