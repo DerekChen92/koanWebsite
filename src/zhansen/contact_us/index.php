@@ -43,8 +43,7 @@
                   </li>
                   <li><label><strong>地址 : </strong></label>
                     <p>
-                      桃園市桃園區<br>
-                      中正路366號7樓之3 (21世紀大廈)
+                      桃園市桃園區中正路366號 (21世紀大廈)
                     </p>
                   </li>
                   <li><label><strong>統一編號 : </strong></label>
