@@ -18,7 +18,7 @@ function getHead($main_page, $add_path) {
     <link href='$add_path/assets/js/google-code-prettify/prettify.css' rel='stylesheet'>
     <link href='$add_path/assets/css/flexslider.css' rel='stylesheet'>
     <link href='$add_path/assets/css/style.css' rel='stylesheet'>
-    <link href='$add_path/assets/color/green.css' rel='stylesheet'>
+    <link href='$add_path/assets/color/blue.css' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,600,400italic|Open+Sans:400,600,700' rel='stylesheet'>
 
     <!-- fav and touch icons -->
