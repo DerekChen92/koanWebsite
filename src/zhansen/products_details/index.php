@@ -3,34 +3,34 @@
 
 <head>
     <?php
-        $main_page = $_GET["product_name"];
-        foreach (glob("../includes/*.php") as $filename)
-            include_once $filename;
-        getHead($main_page, '.');
+    $main_page = $_GET["product_name"];
+    foreach (glob("../includes/*.php") as $filename)
+        include_once $filename;
+    getHead($main_page, '.');
     ?>
 </head>
 
 <body>
-  <div id="wrapper">
-    <?php 
-        getHeader($main_page, '.');        
+    <div id="wrapper">
+        <?php
+        getHeader($main_page, '.');
         getSubintro("products", $main_page);
-    ?>
-    
-    <!-- Contents -->
-    <section id="maincontent">
-        <div class="container">
-            <div class="row">
-                <div class="span12">
-                    <article>
-                        <?php
-                        $product_name = $_GET["product_name"];
-                        $total_img = count(glob("./$product_name/*.jpg"));
-                        $file = fopen("./$product_name/info.txt", "r");
-                        $root_path = ".";
-                        echo "
+        ?>
+
+        <!-- Contents -->
+        <section id="maincontent">
+            <div class="container">
+                <div class="row">
+                    <div class="span12">
+                        <article>
+                            <?php
+                            $product_name = $_GET["product_name"];
+                            $total_img = count(glob("./$product_name/*.jpg"));
+                            $file = fopen("./$product_name/info.txt", "r");
+                            $root_path = ".";
+                            echo "
                         <div class='heading'>
-                            <h4>".fgets($file)."</h4>
+                            <h4>" . fgets($file) . "</h4>
                         </div>
                         <div class='clearfix'>
                         </div>
@@ -39,13 +39,13 @@
                             <!-- start flexslider -->
                             <div class='flexslider'>
                                 <ul class='slides'>";
-                                for($i=1; $i < $total_img; $i++) {
-                                    echo "
+                            for ($i = 1; $i < $total_img; $i++) {
+                                echo "
                                     <li>
                                         <img src='$root_path/products_details/$product_name/$i.jpg' alt=''/>
                                     </li>";
-                                }
-                        echo "
+                            }
+                            echo "
                                 </ul>
                             </div>
                             <!-- end flexslider -->
@@ -60,9 +60,9 @@
                                 <div class='project-widget'>
                                     <h4 class='rheading'>項目內容<span></span></h4>
                                     <ul class='project-detail'>
-                                    <li><label>工程名稱:</label> ".fgets($file)."</li>
-                                    <li><label>工程地點:</label> ".fgets($file)."</li>
-                                    <li><label>工程日期:</label> ".fgets($file)."</li>
+                                    <li><label>工程名稱:</label> " . fgets($file) . "</li>
+                                    <li><label>工程地點:</label> " . fgets($file) . "</li>
+                                    <li><label>工程日期:</label> " . fgets($file) . "</li>
                                     <!-- <li><label>Project link :</label><a href='#'>www.somelink.com</a></li> -->
                                     </ul>
                                 </div>
@@ -70,21 +70,22 @@
                             </aside>
                             </div>
                         </div>";
-                        ?>
-                    </article>
+                            ?>
+                        </article>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Footer
+        </section>
+        <!-- Footer
  ================================================== -->
-    <?php getFooter($main_page); ?>
+        <?php getFooter($main_page); ?>
 
-  </div>
-  <!-- end wrapper -->
-  <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-48 active"></i></a>
+    </div>
+    <!-- end wrapper -->
+    <a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-48 active"></i></a>
 
-  <?php getScripts($main_page); ?>
+    <?php getScripts($main_page); ?>
 
 </body>
+
 </html>

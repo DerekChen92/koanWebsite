@@ -2,29 +2,29 @@
 <html lang="en">
 
 <head>
-    <?php
-        $main_page = "jobs";
-        foreach (glob("../includes/*.php") as $filename)
-            include_once $filename;
-        getHead($main_page, '.');
-    ?>
+  <?php
+  $main_page = "jobs";
+  foreach (glob("../includes/*.php") as $filename)
+    include_once $filename;
+  getHead($main_page, '.');
+  ?>
 </head>
 
 
 <body>
   <div id="wrapper">
-    <?php 
-        getHeader($main_page, '.');         
-        getSubintro($main_page);
+    <?php
+    getHeader($main_page, '.');
+    getSubintro($main_page);
     ?>
-    
+
     <section id="maincontent">
       <div class="container">
         <?php
-          $total_tables = count(glob("./tables/*.txt"));
-          for($i = 0; $i < $total_tables; $i++) {
-            buildTable("./tables/$i.txt");
-          }
+        $total_tables = count(glob("./tables/*.txt"));
+        for ($i = 0; $i < $total_tables; $i++) {
+          buildTable("./tables/$i.txt");
+        }
         ?>
 
       </div>
@@ -40,4 +40,5 @@
   <?php getScripts($main_page); ?>
 
 </body>
+
 </html>

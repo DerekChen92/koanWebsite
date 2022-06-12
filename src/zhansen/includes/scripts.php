@@ -16,4 +16,3 @@
         <!-- Template Custom JavaScript File -->
         <script src='$root_path/assets/js/custom.js'></script>";
     }
-?>

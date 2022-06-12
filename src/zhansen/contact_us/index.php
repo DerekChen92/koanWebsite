@@ -2,22 +2,22 @@
 <html lang="en">
 
 <head>
-     <?php
-        $main_page = "contact_us";
-        foreach (glob("../includes/*.php") as $filename)
-            include_once $filename;
-        getHead($main_page, '.');
-    ?>
+  <?php
+  $main_page = "contact_us";
+  foreach (glob("../includes/*.php") as $filename)
+    include_once $filename;
+  getHead($main_page, '.');
+  ?>
 </head>
 
 
 <body>
   <div id="wrapper">
     <?php
-        getHeader($main_page, '.');
-        getSubintro($main_page);
+    getHeader($main_page, '.');
+    getSubintro($main_page);
     ?>
-    
+
     <section id="maincontent">
       <div class="container">
         <div class="row">
@@ -54,13 +54,27 @@
                   </li>
                   <li><label><strong>服務時間 : </strong></label>
                     <table>
-                      <tr><td>星期一  8:30 – 17:30</td></tr>
-                      <tr><td>星期二  8:30 – 17:30</td></tr>
-                      <tr><td>星期三  8:30 – 17:30</td></tr>
-                      <tr><td>星期四  8:30 – 17:30</td></tr>
-                      <tr><td>星期五  8:30 – 17:30</td></tr>
-                      <tr><td>星期六  休息</td></tr>
-                      <tr><td>星期日  休息</td></tr>
+                      <tr>
+                        <td>星期一 8:30 – 17:30</td>
+                      </tr>
+                      <tr>
+                        <td>星期二 8:30 – 17:30</td>
+                      </tr>
+                      <tr>
+                        <td>星期三 8:30 – 17:30</td>
+                      </tr>
+                      <tr>
+                        <td>星期四 8:30 – 17:30</td>
+                      </tr>
+                      <tr>
+                        <td>星期五 8:30 – 17:30</td>
+                      </tr>
+                      <tr>
+                        <td>星期六 休息</td>
+                      </tr>
+                      <tr>
+                        <td>星期日 休息</td>
+                      </tr>
                     </table>
                   </li>
                 </ul>
@@ -73,9 +87,9 @@
                   <li><a href="https://www.facebook.com/ZhanSenCoLtd/" title="Facebook"><i class="icon-square icon-32 icon-facebook"></i></a></li>
                   <li><a href="https://lin.ee/EhGgn9T" style="margin-left:3px;"><i><img src="./assets/ico/line_icon.png" style="width:30px; height:31px;"></i></a>
 
-                  <!-- <li><a href="#" title="Google plus"><i class="icon-square icon-32 icon-google-plus"></i></a></li> -->
-                  <!-- <li><a href="#" title="Linkedin"><i class="icon-square icon-32 icon-linkedin"></i></a></li> -->
-                  <!-- <li><a href="#" title="Pinterest"><i class="icon-square icon-32 icon-pinterest"></i></a></li> -->
+                    <!-- <li><a href="#" title="Google plus"><i class="icon-square icon-32 icon-google-plus"></i></a></li> -->
+                    <!-- <li><a href="#" title="Linkedin"><i class="icon-square icon-32 icon-linkedin"></i></a></li> -->
+                    <!-- <li><a href="#" title="Pinterest"><i class="icon-square icon-32 icon-pinterest"></i></a></li> -->
                 </ul>
               </div>
 
@@ -94,7 +108,7 @@
     <!-- Footer
  ================================================== -->
     <?php
-        getFooter($main_page);
+    getFooter($main_page);
     ?>
 
   </div>
@@ -104,4 +118,5 @@
   <?php getScripts($main_page); ?>
 
 </body>
+
 </html>

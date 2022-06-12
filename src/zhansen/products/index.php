@@ -2,21 +2,21 @@
 <html lang="en">
 
 <head>
-    <?php
-        $main_page = "products";
-        foreach (glob("../includes/*.php") as $filename)
-            include_once $filename;
-        getHead($main_page, '.');
-    ?>
+  <?php
+  $main_page = "products";
+  foreach (glob("../includes/*.php") as $filename)
+    include_once $filename;
+  getHead($main_page, '.');
+  ?>
 </head>
 
 <body>
   <div id="wrapper">
-    <?php 
-        getHeader($main_page, '.');        
-        getSubintro($main_page);
+    <?php
+    getHeader($main_page, '.');
+    getSubintro($main_page);
     ?>
-    
+
     <!-- Contents -->
     <section id="maincontent">
       <!-- <div class="container">
@@ -28,11 +28,11 @@
         <div class="row">
           <ul class="portfolio-area da-thumbs">
 
-              <?php
-                foreach(glob("../products_details/*", GLOB_ONLYDIR) as $foldername) {
-                  $name = basename($foldername);
-                  $root_path = ".";
-                  echo "
+            <?php
+            foreach (glob("../products_details/*", GLOB_ONLYDIR) as $foldername) {
+              $name = basename($foldername);
+              $root_path = ".";
+              echo "
                   <li class='portfolio-item' data-id='id-0' data-type='web'>
                     <div class='span4'>
                       <div class='thumbnail'>
@@ -55,9 +55,9 @@
                       </div>
                     </div>
                   </li>";
-                }
+            }
 
-              ?>
+            ?>
 
           </ul>
         </div>
@@ -74,4 +74,5 @@
   <?php getScripts($main_page); ?>
 
 </body>
+
 </html>

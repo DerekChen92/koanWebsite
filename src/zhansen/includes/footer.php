@@ -1,10 +1,11 @@
 <?php
-    function getFooter($mainPage) {
+function getFooter($mainPage)
+{
 
-        $root_path = ".";
+    $root_path = ".";
 
-        echo 
-        "<footer class='footer'>
+    echo
+    "<footer class='footer'>
         <div class='container'>
         <div class='row'>
             <div class='span4'>
@@ -72,4 +73,4 @@
         </div>
         </div>
         </footer>";
-    }
+}

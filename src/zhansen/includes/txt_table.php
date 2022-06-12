@@ -67,4 +67,3 @@ function buildTable($url) {
     echo "</table>";
     echo "</div>";
 }
-?>

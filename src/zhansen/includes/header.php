@@ -1,75 +1,78 @@
 <?php
-class TabData {
+class TabData
+{
   public $url;
   public $name;
-  function __construct($name, $url) {
+  function __construct($name, $url)
+  {
     $this->name = $name;
     $this->url = $url;
   }
 }
 
-function getHeader($main_page, $add_path){
-    $tabs = array(
-      new TabData("home", "")
-    );
+function getHeader($main_page, $add_path)
+{
+  $tabs = array(
+    new TabData("home", "")
+  );
 
-    $add_path = ".";
+  $add_path = ".";
 
-    $home_state = "";
-    $services_state = "";
-    $products_state = "";
-    $jobs_state = "";
-    $contact_us_state = "";
-    $test_state = "";
+  $home_state = "";
+  $services_state = "";
+  $products_state = "";
+  $jobs_state = "";
+  $contact_us_state = "";
+  $test_state = "";
 
-    $home_url = "$add_path/";
-    $services_url = "$add_path/services";
-    $products_url = "$add_path/products";
-    $jobs_url = "$add_path/jobs";
-    $contact_us_url = "$add_path/contact_us";
-    $test_url = "$add_path/test";
+  $home_url = "$add_path/";
+  $services_url = "$add_path/services";
+  $products_url = "$add_path/products";
+  $jobs_url = "$add_path/jobs";
+  $contact_us_url = "$add_path/contact_us";
+  $test_url = "$add_path/test";
 
-    switch ($main_page) {
-        case "home":
-            $home_state = "active";
-            $home_url = "#";
-            break;
-        
-        case "services":
-            $services_state = "active";
-            $services_url = "#";
-            break;
-        
-        case "products":
-            $products_state = "active";
-            $products_url = "#";
-            break;
+  switch ($main_page) {
+    case "home":
+      $home_state = "active";
+      $home_url = "#";
+      break;
 
-        case "products_details":
-            $products_state = "active";
-            break;
+    case "services":
+      $services_state = "active";
+      $services_url = "#";
+      break;
 
-        case "jobs":
-            $jobs_state = "active";
-            $jobs_url = "#";
-            break;
+    case "products":
+      $products_state = "active";
+      $products_url = "#";
+      break;
 
-        case "contact_us":
-            $contact_us_state = "active";
-            $contact_us_url = "#";
-            break;
+    case "products_details":
+      $products_state = "active";
+      break;
 
-        case "test":
-            $test_state = "active";
-            $test_url = "#";
-        
-        default:
-            # code...
-            break;
-    }
+    case "jobs":
+      $jobs_state = "active";
+      $jobs_url = "#";
+      break;
+
+    case "contact_us":
+      $contact_us_state = "active";
+      $contact_us_url = "#";
+      break;
+
+    case "test":
+      $test_state = "active";
+      $test_url = "#";
+
+    default:
+      # code...
+      break;
+  }
 
 
-  echo 
+  echo
   "<header>
     <!-- Navbar
   ================================================== -->
