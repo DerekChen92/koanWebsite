@@ -5,7 +5,7 @@ function getHead($main_page, $add_path) {
     echo 
     "
     <meta charset='utf-8'>
-    <title>展森事業有限公司 | $title</title>
+    <title>格安企業有限公司 | $title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta name='description' content=''>
     <meta name='author' content=''>
