@@ -36,13 +36,13 @@ function getFooter($mainPage)
             <div class='widget'>
                 <h5>聯絡我們</h5>
                 <address>
-                                <i class='icon-home'></i> <strong>展森事業有限公司</strong><br>
+                                <i class='icon-home'></i> <strong>格安企業有限公司</strong><br>
                                 桃園市桃園區<br>
                                 中正路366號7樓之3 (21世紀大廈)
                                 </address>
                 <p>
-                <i class='icon-phone'></i> (03) 350-3086<br>
-                <i class='icon-envelope-alt'></i> op@zhansen.com.tw
+                <i class='icon-phone'></i> (03) 350-3085<br>
+                <i class='icon-envelope-alt'></i> op@koanltd.com
                 </p>
             </div>
             </div>
@@ -53,7 +53,7 @@ function getFooter($mainPage)
             <div class='row'>
             <div class='span6'>
                 <p>
-                &copy; 2022 - All Rights Reserved - zhansen.com.tw
+                &copy; 2022 - All Rights Reserved - koanltd.com
                 </p>
             </div>
             <div class='span6'>
