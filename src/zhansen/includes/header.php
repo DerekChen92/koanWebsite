@@ -13,7 +13,7 @@ function getHeader($main_page, $add_path){
       new TabData("home", "")
     );
 
-    $add_path = "/zhansen";
+    $add_path = ".";
 
     $home_state = "";
     $services_state = "";
@@ -78,7 +78,7 @@ function getHeader($main_page, $add_path){
         <div class='container'>
           <!-- logo -->
           <div class='logo'>
-            <a href='/zhansen'><img srcset='$add_path/assets/images/logo.png 1x' alt=''/></a>
+            <a href='.'><img srcset='$add_path/assets/images/logo.png 1x' alt=''/></a>
           </div>
           <!-- end logo -->
 

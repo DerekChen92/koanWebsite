@@ -40,14 +40,14 @@
           // }
         ?> -->
         <div class="row">
-          <div class="span4 center"><img class="myImage" src="/zhansen/services/images/1.png" alt=""/><div class="iconText">樹木修剪</div></div>
-          <div class="span4 center"><img class="myImage" src="/zhansen/services/images/2.png" alt=""/><div class="iconText">草坪維護</div></div>
-          <div class="span4 center"><img class="myImage" src="/zhansen/services/images/3.png" alt=""/><div class="iconText">草木移植</div></div>
+          <div class="span4 center"><img class="myImage" src="./services/images/1.png" alt=""/><div class="iconText">樹木修剪</div></div>
+          <div class="span4 center"><img class="myImage" src="./services/images/2.png" alt=""/><div class="iconText">草坪維護</div></div>
+          <div class="span4 center"><img class="myImage" src="./services/images/3.png" alt=""/><div class="iconText">草木移植</div></div>
         </div>
         <div class="row">
-          <div class="span4 center"><img class="myImage" src="/zhansen/services/images/4.png" alt=""/><div class="iconText">花海工程</div></div>
-          <div class="span4 center"><img class="myImage" src="/zhansen/services/images/5.png" alt=""/><div class="iconText">病蟲害防治</div></div>
-          <div class="span4 center"><img class="myImage" src="/zhansen/services/images/6.png" alt=""/><div class="iconText">防汛搶災</div></div>
+          <div class="span4 center"><img class="myImage" src="./services/images/4.png" alt=""/><div class="iconText">花海工程</div></div>
+          <div class="span4 center"><img class="myImage" src="./services/images/5.png" alt=""/><div class="iconText">病蟲害防治</div></div>
+          <div class="span4 center"><img class="myImage" src="./services/images/6.png" alt=""/><div class="iconText">防汛搶災</div></div>
         </div>
 
       </div>

@@ -27,6 +27,7 @@
                         $product_name = $_GET["product_name"];
                         $total_img = count(glob("./$product_name/*.jpg"));
                         $file = fopen("./$product_name/info.txt", "r");
+                        $root_path = ".";
                         echo "
                         <div class='heading'>
                             <h4>".fgets($file)."</h4>
@@ -41,7 +42,7 @@
                                 for($i=1; $i < $total_img; $i++) {
                                     echo "
                                     <li>
-                                        <img src='/zhansen/products_details/$product_name/$i.jpg' alt=''/>
+                                        <img src='$root_path/products_details/$product_name/$i.jpg' alt=''/>
                                     </li>";
                                 }
                         echo "

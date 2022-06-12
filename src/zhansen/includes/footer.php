@@ -1,5 +1,8 @@
 <?php
     function getFooter($mainPage) {
+
+        $root_path = ".";
+
         echo 
         "<footer class='footer'>
         <div class='container'>
@@ -11,10 +14,10 @@
                 <li><a href='/'>                  
                     <li><i class='icon-home'></i></li>
                     </a></li>
-                <li><a href='/zhansen/services'>服務項目</a></li>
-                <li><a href='/zhansen/products'>作品展示</a></li>
-                <li><a href='/zhansen/jobs'>工作機會</a></li>
-                <li><a href='/zhansen/contact_us'>聯絡我們</a></li>
+                <li><a href='$root_path/services'>服務項目</a></li>
+                <li><a href='$root_path/products'>作品展示</a></li>
+                <li><a href='$root_path/jobs'>工作機會</a></li>
+                <li><a href='$root_path/contact_us'>聯絡我們</a></li>
                 </ul>
             </div>
             </div>

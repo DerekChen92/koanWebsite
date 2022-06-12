@@ -71,7 +71,7 @@
                 <ul class="social-links">
                   <!-- <li><a href="#" title="Twitter"><i class="icon-square icon-32 icon-twitter"></i></a></li> -->
                   <li><a href="https://www.facebook.com/ZhanSenCoLtd/" title="Facebook"><i class="icon-square icon-32 icon-facebook"></i></a></li>
-                  <li><a href="https://lin.ee/EhGgn9T" style="margin-left:3px;"><i><img src="/zhansen/assets/ico/line_icon.png" style="width:30px; height:31px;"></i></a>
+                  <li><a href="https://lin.ee/EhGgn9T" style="margin-left:3px;"><i><img src="./assets/ico/line_icon.png" style="width:30px; height:31px;"></i></a>
 
                   <!-- <li><a href="#" title="Google plus"><i class="icon-square icon-32 icon-google-plus"></i></a></li> -->
                   <!-- <li><a href="#" title="Linkedin"><i class="icon-square icon-32 icon-linkedin"></i></a></li> -->

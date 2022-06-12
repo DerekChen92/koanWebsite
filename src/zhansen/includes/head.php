@@ -1,11 +1,13 @@
 <?php
 function getHead($main_page, $add_path) {
     $title = getPageName($main_page);
-    $add_path = "/zhansen";
+    $add_path = ".";
     echo 
     "
     <meta charset='utf-8'>
     <title>展森事業有限公司 | $title</title>
+    <meta keyword='keywords' content='舞台, 植栽, 園藝, 花海工程, 防汛搶災, 病蟲害防治, 造景, 美化工程, 水土保持, 喬木, 灌木, 養護, 樹木修剪, 環境綠化, 防風林, 展森, 展森事業, 展森事業有限公司, 格安, 
+    格安企業, 格安企業有限公司, 舞台搭建, 人力派遣, zhansen, zhan sen, koan, 入口網站, 綠美化, 專業團隊, 專業, 演唱會, 搭舞台, 除草, 景觀, 景觀工程, 草木移植, 草花移植, 草皮養護, 草坪養護, 草皮修剪, 公園綠地, 公園養護, 公園清潔, 工作機會, 專業人才, 園藝人才'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta name='description' content=''>
     <meta name='author' content=''>
