@@ -28,7 +28,7 @@
                 <ul>
                   <li><label><strong>電話 : </strong></label>
                     <p>
-                      (03) 350-3086
+                      (03) 350-3085
                     </p>
                   </li>
                   <li><label><strong>傳真 : </strong></label>
@@ -38,18 +38,17 @@
                   </li>
                   <li><label><strong>Email : </strong></label>
                     <p>
-                      op@zhansen.com.tw
+                      op@koanltd.com
                     </p>
                   </li>
                   <li><label><strong>地址 : </strong></label>
                     <p>
-                      桃園市桃園區<br>
-                      中正路366號7樓之3 (21世紀大廈)
+                      桃園市桃園區中正路366號 (21世紀大廈)
                     </p>
                   </li>
                   <li><label><strong>統一編號 : </strong></label>
                     <p>
-                      53823166
+                      28801517
                     </p>
                   </li>
                   <li><label><strong>服務時間 : </strong></label>

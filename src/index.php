@@ -16,7 +16,7 @@
     $koanPath='./koan/';
     $zhansenLogo='./assets/images/zhansen_logo.png';
     $koanLogo='./assets/images/koan_logo.png';
-    $footerInfo='&copy; 2022 - All Rights Reserved - zhansen.com.tw';
+    $footerInfo='&copy; 2022 - All Rights Reserved - koanltd.com';
 
     echo  
     "<div class='margin_row'>
