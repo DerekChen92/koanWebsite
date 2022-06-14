@@ -1,6 +1,6 @@
 <?php
     function getScripts($main_page) {
-        $root_path = ".";
+        $root_path = "/.";
         echo 
         "<script src='$root_path/assets/js/jquery.js'></script>
         <script src='$root_path/assets/js/raphael-min.js'></script>

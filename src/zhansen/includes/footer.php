@@ -2,7 +2,7 @@
 function getFooter($mainPage)
 {
 
-    $root_path = ".";
+    $root_path = "/.";
 
     echo
     "<footer class='footer'>

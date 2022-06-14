@@ -2,7 +2,7 @@
     function getSubintro($main_page) {
         // $name = getPageName($main_page);
         $args = func_get_args();
-        $root_path = ".";
+        $root_path = "/.";
 
         echo "
         <section id='subintro'>
