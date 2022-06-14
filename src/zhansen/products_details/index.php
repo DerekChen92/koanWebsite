@@ -14,6 +14,7 @@
     <div id="wrapper">
         <?php
         getHeader($main_page, '.');
+        echo "$main_page";
         getSubintro("products", $main_page);
         ?>
 

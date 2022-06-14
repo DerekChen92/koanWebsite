@@ -14,9 +14,10 @@
 
         foreach ($args as &$arg) {
           $name = getPageName($arg);
+          $url = getSubintroUrl($arg, $root_path);
           echo "              
           <li><i class='icon-angle-right'></i></li>
-          <li><a href='#'>$name</a></li>";
+          <li><a href='$url'>$name</a></li>";
         }
         echo "
               </ul>
