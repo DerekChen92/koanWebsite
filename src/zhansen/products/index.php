@@ -31,7 +31,7 @@
             <?php
             foreach (glob("../products_details/*", GLOB_ONLYDIR) as $foldername) {
               $name = basename($foldername);
-              $root_path = ".";
+              $root_path = "/.";
               echo "
                   <li class='portfolio-item' data-id='id-0' data-type='web'>
                     <div class='span4'>
