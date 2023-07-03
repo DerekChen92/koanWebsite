@@ -27,6 +27,7 @@
                             $product_name = $_GET["product_name"];
                             $total_img = count(glob("./$product_name/*.jpg"));
                             $file = fopen("./$product_name/info.txt", "r");
+                            $label = fopen("./$product_name/label.txt", "r");
                             $root_path = ".";
                             echo "
                         <div class='heading'>
@@ -60,9 +61,9 @@
                                 <div class='project-widget'>
                                     <h4 class='rheading'>項目內容<span></span></h4>
                                     <ul class='project-detail'>
-                                    <li><label>工程名稱:</label> " . fgets($file) . "</li>
-                                    <li><label>工程地點:</label> " . fgets($file) . "</li>
-                                    <li><label>工程日期:</label> " . fgets($file) . "</li>
+                                    <li><label>" . fgets($label) . ":</label> " . fgets($file) . "</li>
+                                    <li><label>" . fgets($label) . ":</label> " . fgets($file) . "</li>
+                                    <li><label>" . fgets($label) . ":</label> " . fgets($file) . "</li>
                                     <!-- <li><label>Project link :</label><a href='#'>www.somelink.com</a></li> -->
                                     </ul>
                                 </div>
