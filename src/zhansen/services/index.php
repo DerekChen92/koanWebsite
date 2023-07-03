@@ -6,7 +6,7 @@
   $main_page = "services";
   foreach (glob("../includes/*.php") as $filename)
     include_once $filename;
-  getHead($main_page, '.');
+  getHead($main_page, '..');
   ?>
   <style>
     .iconText {
@@ -26,7 +26,7 @@
   <div id="wrapper">
 
     <?php
-    getHeader($main_page, '.');
+    getHeader($main_page, '..');
     getSubintro($main_page);
     ?>
 

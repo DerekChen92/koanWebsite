@@ -6,14 +6,14 @@
     $main_page = $_GET["product_name"];
     foreach (glob("../includes/*.php") as $filename)
         include_once $filename;
-    getHead($main_page, '.');
+    getHead($main_page, '..');
     ?>
 </head>
 
 <body>
     <div id="wrapper">
         <?php
-        getHeader($main_page, '.');
+        getHeader($main_page, '..');
         getSubintro("products", $main_page);
         ?>
 
@@ -27,7 +27,8 @@
                             $product_name = $_GET["product_name"];
                             $total_img = count(glob("./$product_name/*.jpg"));
                             $file = fopen("./$product_name/info.txt", "r");
-                            $root_path = "/.";
+                            $label = fopen("./$product_name/label.txt", "r");
+                            $root_path = ".";
                             echo "
                         <div class='heading'>
                             <h4>" . fgets($file) . "</h4>
@@ -60,9 +61,9 @@
                                 <div class='project-widget'>
                                     <h4 class='rheading'>項目內容<span></span></h4>
                                     <ul class='project-detail'>
-                                    <li><label>工程名稱:</label> " . fgets($file) . "</li>
-                                    <li><label>工程地點:</label> " . fgets($file) . "</li>
-                                    <li><label>工程日期:</label> " . fgets($file) . "</li>
+                                    <li><label>" . fgets($label) . ":</label> " . fgets($file) . "</li>
+                                    <li><label>" . fgets($label) . ":</label> " . fgets($file) . "</li>
+                                    <li><label>" . fgets($label) . ":</label> " . fgets($file) . "</li>
                                     <!-- <li><label>Project link :</label><a href='#'>www.somelink.com</a></li> -->
                                     </ul>
                                 </div>

@@ -16,7 +16,7 @@ function getHeader($main_page, $add_path)
     new TabData("home", "")
   );
 
-  $add_path = "/.";
+  // $add_path = "/.";
 
   $home_state = "";
   $services_state = "";

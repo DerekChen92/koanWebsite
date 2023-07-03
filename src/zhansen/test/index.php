@@ -6,7 +6,7 @@
         $main_page = "home";
         foreach (glob("../includes/*.php") as $filename)
             include_once $filename;
-        getHead($main_page, '.');
+        getHead($main_page, '..');
         // getTableCss();
     ?>
 </head>
@@ -14,7 +14,7 @@
 <body>
   <div id="wrapper">
 
-    <?php getHeader($main_page, '.'); ?>
+    <?php getHeader($main_page, '..'); ?>
 
     <section id="maincontent">
       <div class="container">
