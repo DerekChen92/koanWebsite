@@ -28,7 +28,7 @@
                             $total_img = count(glob("./$product_name/*.jpg"));
                             $file = fopen("./$product_name/info.txt", "r");
                             $label = fopen("./$product_name/label.txt", "r");
-                            $root_path = ".";
+                            $root_path = "/.";
                             echo "
                         <div class='heading'>
                             <h4>" . fgets($file) . "</h4>
