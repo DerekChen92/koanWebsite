@@ -61,9 +61,9 @@
                                 <div class='project-widget'>
                                     <h4 class='rheading'>項目內容<span></span></h4>
                                     <ul class='project-detail'>
-                                    <li><label>" . fgets($label) . ":</label> " . fgets($file) . "</li>
-                                    <li><label>" . fgets($label) . ":</label> " . fgets($file) . "</li>
-                                    <li><label>" . fgets($label) . ":</label> " . fgets($file) . "</li>
+                                    <li><label>" . fgets($label) . "</label> " . fgets($file) . "</li>
+                                    <li><label>" . fgets($label) . "</label> " . fgets($file) . "</li>
+                                    <li><label>" . fgets($label) . "</label> " . fgets($file) . "</li>
                                     <!-- <li><label>Project link :</label><a href='#'>www.somelink.com</a></li> -->
                                     </ul>
                                 </div>
