@@ -29,6 +29,7 @@
           <ul class="portfolio-area da-thumbs">
 
             <?php
+            setlocale(LC_ALL, 'zh_CN.GBK');
             foreach (glob("../products_details/*", GLOB_ONLYDIR) as $foldername) {
               $name = basename($foldername);
               $root_path = ".";
